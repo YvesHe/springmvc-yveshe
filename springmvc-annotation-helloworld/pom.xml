@@ -7,12 +7,13 @@
 		<groupId>com.yveshe</groupId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
+
 	<groupId>com.yveshe</groupId>
-	<artifactId>com.yveshe.springmvc.helloworld</artifactId>
+	<artifactId>com.yveshe.springmvc.annotation.helloworld</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<name>springmvc-helloworld Maven Webapp</name>
+	<name>springmvc-annotation-helloworld Maven Webapp</name>
 	<!-- FIXME change it to the project's website -->
 	<url>http://www.example.com</url>
 
@@ -153,7 +154,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>springmvc-helloworld</finalName>
+		<finalName>springmvc-annotation-helloworld</finalName>
 		<pluginManagement><!-- lock down plugins versions to avoid using Maven 
 				defaults (may be moved to parent pom) -->
 			<plugins>

@@ -6,6 +6,10 @@
 <title>Hello World</title>
 </head>
 <body>
-${message }
+    <%
+       out.print(request.getAttribute("message"));
+    %>
+    
+${message }   : Yveshe
 </body>
 </html>
